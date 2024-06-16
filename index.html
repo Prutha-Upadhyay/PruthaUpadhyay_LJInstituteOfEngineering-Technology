@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .center {
+            text-align: center;
+        }
+        .profile-pic {
+            width: 150px;
+            height: auto;
+            border-radius: 50%;
+        }
+        .content {
+            margin: 20px;
+        }
+        .bold {
+            font-weight: bold;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="center">
+        <h1>About Me</h1>
+    </header>
+    
+    <!-- Profile Picture -->
+    <div class="center">
+        <img src="WhatsApp Image 2024-03-10 at 22.37.29.jpeg" alt="Prutha Upadhyay" class="profile-pic">
+    </div>
+    <br>
+    <hr>
+    
+    <!-- Personal Information -->
+    <div class="content">
+        <h2 class="bold">Name</h2>
+        <p>Prutha Upadhyay</p>
+        
+        <h2 class="bold">Education</h2>
+        <p>Bachelors in Computer Engineering, LJ Institute Of Engineering & Technology</p>
+        
+        <h2 class="bold">Technical Skills</h2>
+        <table>
+            <tr>
+                <th>Skill</th>
+                <th>Proficiency</th>
+            </tr>
+            <tr>
+                <td>Programming Languages</td>
+                <td>Python, Java</td>
+            </tr>
+            <tr>
+                <td>Web Development</td>
+                <td>HTML, CSS, JavaScript, Node, Express</td>
+            </tr>
+            <tr>
+                <td>Database Management</td>
+                <td>PostgreSQL</td>
+            </tr>
+            <tr>
+                <td>Tools</td>
+                <td>Git, VS code</td>
+            </tr>
+        </table>
+        
+        
+        
+        <h2 class="bold">Hobbies and Interests</h2>
+        <ul>
+            <li>Music</li>
+            <li>Sports</li>
+            <li>Photography</li>
+            <li>Reading</li>
+        </ul>
+        
+        <h2 class="bold">Ambitions</h2>
+        <p>I aspire to become a software engineer at a leading tech company and contribute to innovative projects that make a difference in the world.</p>
+        
+        <!-- Additional Information -->
+        <h2 class="bold">Other Interests</h2>
+        <p>I enjoy learning new programming languages and staying updated with the latest technology trends.</p>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="content">
+        <h2 class="bold">Contact Me</h2>
+        <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+            <input type="submit" value="Send">
+        </form>
+    </div>
+
+    <!-- Footer with Horizontal Rule -->
+    <footer class="center">
+        <hr>
+        <p>© 2024 Prutha Upadhyay</p>
+    </footer>
+</body>
+</html>
